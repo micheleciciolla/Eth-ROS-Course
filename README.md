@@ -1,5 +1,6 @@
 # ETH-ROS
 <a href="https://www.dis.uniroma1.it/"><img src="./1_Lecture/cover.png" width="800"></a>
+
 Robot Operating System exercises from ETH Zürich.
 
 ### Overview
