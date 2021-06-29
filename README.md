@@ -56,7 +56,7 @@ source devel/setup.bash
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 ```
 
-### External package to donwload 
+### External package to download 
 
 ```use sudo apt install ros-noetic-package_name
 ```
@@ -70,11 +70,13 @@ package_name :
 
 ### Simlink external repo
 Within your workspace/src link a repo inside .git folder
-```ln -s ~/.git/your_package
+```
+ln -s ~/.git/your_package
 ```
 Then you have to build the workspace and source again the devel/setup.bash .
 You can check the link using 
-```ls -o
+```
+ls -o
 ```
 
 ### Eclipse setup for editing and compiling ROS scripts
