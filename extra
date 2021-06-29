@@ -1,0 +1,32 @@
+
+catking tools installed from source GIT with no errors.
+
+this is suggested template to use config
+
+"args": [
+"-G",
+"Unix Makefiles",
+"-DCMAKE_BUILD_TYPE=Debug",
+".."
+]
+
+## Compile Commands 
+```
+catkin config -G"Eclipse CDT4 - Unix Makefiles"
+
+catkin config --extend /opt/ros/noetic
+catkin config -DCMAKE_BUILD_TYPE=Release
+catkin config -DCMAKE_CXX_COMPILER_ARG1=-std=c++11
+catkin config -D__cplusplus=201103L
+catkin config -D__GXX_EXPERIMENTAL_CXX0X__=1
+```
+
+## External package to donwload 
+# use sudo apt install ros-noetic-package_name
+package_name :
+* velodyne-description
+* hector-gazebo
+* teleop-twist-keyboard
+* pointcloud-to-laserscan
+* ...
+
