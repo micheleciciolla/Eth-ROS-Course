@@ -42,7 +42,10 @@ source /opt/ros/noetic/setup.bash
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws
 catkin init
+```
 
+build using this
+```
 catkin config -G"Eclipse CDT4 - Unix Makefiles"
 catkin config --extend /opt/ros/noetic
 catkin config -DCMAKE_BUILD_TYPE=Release
@@ -50,8 +53,18 @@ catkin config -DCMAKE_CXX_COMPILER_ARG1=-std=c++11
 catkin config -D__cplusplus=201103L
 catkin config -D__GXX_EXPERIMENTAL_CXX0X__=1
 
-catkin build
+catkin buid 
+```
 
+or (this worked for me)
+
+```
+
+catkin build -G"Eclipse CDT4 - Unix Makefiles"
+```
+
+then
+```
 source devel/setup.bash
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 ```
@@ -60,7 +73,6 @@ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 
 ```use sudo apt install ros-noetic-package_name
 ```
-
 package_name :
 * velodyne-description
 * hector-gazebo
@@ -79,7 +91,28 @@ You can check the link using
 ls -o
 ```
 
-### Eclipse setup for editing and compiling ROS scripts
+### Eclipse setup for advance editing and compiling ROS scripts
+
+Setup a Eclipse Workspace:
+```
+catkin build -G"Eclipse CDT4 - Unix Makefiles"
+```
+after that you may do:
+- File > Import > General > Existing Project > "Select your workspace"
+- Right Click on the project folder > Index > Rebuild
+
+The project src is in the [Source directory].
+
+Useful shortcuts:
+* Ctrl + Space         : Autocomplete
+* Ctrl + Shift + F     : Autoformat
+* Ctrl + /             : Comment/Uncomment
+* Ctrl + D             : Delete Line
+* Ctrl + arrow up/down : Move fast up/down
+
+
+
+
 
 
 
