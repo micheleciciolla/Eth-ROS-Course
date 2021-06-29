@@ -6,7 +6,7 @@ Robot Operating System exercises from ETH Zürich.
 ### Overview
 This course gave an introduction to the Robot Operating System (ROS) including many of the available tools that are commonly used in robotics. With the help of different examples, the course provided a good starting point to work with robots. I learn how to create software including simulation, to interface sensors and actuators, and to integrate control algorithms.
 
-<a href="https://robotics-summerschool.ethz.ch/"><img src="./1_Lecture/program" width="800"></a>
+<a href="https://robotics-summerschool.ethz.ch/"><img src="./1_Lecture/program.png" width="800"></a>
 
 ### First Exercise
 Write a launch file using smb simulation with a different world: include ​smb_gazebo.launch​.
