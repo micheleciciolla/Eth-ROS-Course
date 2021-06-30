@@ -70,8 +70,8 @@ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 ```
 
 ### External package to download 
-
-```use sudo apt install ros-noetic-package_name
+```
+use sudo apt install ros-noetic-package_name
 ```
 package_name :
 * velodyne-description
@@ -79,6 +79,7 @@ package_name :
 * teleop-twist-keyboard
 * pointcloud-to-laserscan
 * ...
+
 
 ### Simlink external repo
 Within your workspace/src link a repo inside .git folder
@@ -109,7 +110,6 @@ Useful shortcuts:
 * Ctrl + /             : Comment/Uncomment
 * Ctrl + D             : Delete Line
 * Ctrl + arrow up/down : Move fast up/down
-
 
 
 
