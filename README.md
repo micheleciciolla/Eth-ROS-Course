@@ -1,27 +1,11 @@
-# ETH-ROS : exercises from ETH Zürich
+# ETH-ROS : preparation exercises for ETH Robotics Summer School 2021
 <a href="https://robotics-summerschool.ethz.ch/"><img src="./1Lecture/cover.png" width="800"></a>
-
 
 
 ### Overview
 This course gave an introduction to the Robot Operating System (ROS) including many of the available tools that are commonly used in robotics. With the help of different examples, the course provided a good starting point to work with robots. I learn how to create software including simulation, to interface sensors and actuators, and to integrate control algorithms.
 
 <a href="https://robotics-summerschool.ethz.ch/"><img src="./1Lecture/program" width="800"></a>
-
-### First Exercise
-Write a launch file using smb simulation with a different world: include ​smb_gazebo.launch​.
-Change the ​ world_file ​argument to a world from the directory ​ /usr/share/gazebo-11/worlds (​ e.g.
-worlds/robocup14_spl_field.world). ​
-### Second Exercise 
-In this exercise, you will create your first ROS package. The package should be able to
-subscribe to a laser scan message from the SMB robot and process the incoming data.
-### Third Exercise 
-In this exercise, you will create your first ROS package. The package should be able to
-subscribe to a laser scan message from the SMB robot and process the incoming data.
-### Fourth Exercise 
--
-### Fifth Exercise 
--
 
 ### Details
 More details (preparation instructions, lecture slides, video recordings) on the course page: [Programming for Robotics - ROS](https://rsl.ethz.ch/education-students/lectures/ros.html)
