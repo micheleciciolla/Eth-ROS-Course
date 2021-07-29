@@ -98,6 +98,16 @@ Useful shortcuts:
 * Ctrl + D             : Delete Line
 * Ctrl + arrow up/down : Move fast up/down
 
+### Editing the CMAKELIST file
+
+add_executable(simple src/simple.cpp)
+add_dependencies(simple ${simple_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(simple
+   ${catkin_LIBRARIES}
+ )
+
+
+
 
 
 
