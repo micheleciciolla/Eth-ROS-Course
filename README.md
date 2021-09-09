@@ -54,8 +54,9 @@ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 ```
 
 ### External package to download 
+use
 ```
-use sudo apt install ros-noetic-package_name
+sudo apt install ros-noetic-package_name
 ```
 package_name :
 * robot-localization
